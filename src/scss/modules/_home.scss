@@ -1,0 +1,59 @@
+.home {
+  height: 86vh;
+  background-image: url('../assets/img/angry-birds.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .home {
+    height: 90.6vh;
+  }
+}
+
+.home-title {
+  text-align: center;
+}
+
+.footer {
+  min-height: 70px;
+  padding: 0 0 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.copyright__link {
+  color: inherit;
+}
+
+.copyright__link:hover {
+  text-decoration: underline;
+}
+
+.rss-link {
+  display: block;
+  width: 100px;
+  height: 50px;
+}
+
+@media (max-width: 340px) {
+  .rss-link {
+    width: 75px;
+    height: 37.5px;
+  }
+}
+
+.rss-link img {
+  padding-top: 9px;
+  width: 100%;
+}
